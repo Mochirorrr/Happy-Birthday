@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="valentine-confession.css">
+        <title>Happy Birthday!</title>
+
+<!-- 🔊 AUDIO AUTOPLAY -->
+<audio id="bgMusic" loop>
+  <source src="../assets/lagu-romantis.mp3" type="audio/mpeg">
+  Browser kamu tidak mendukung audio.
+</audio>
+
+ <!-- 💖 INTRO PAGE -->
+  <div id="introPage" class="fade-in">
+    <h1>Happy Birthday!</h1>
+    <button onclick="goToHeart()">Buka Pesan 💌</button>
+  </div>
+
+  <!-- 💘 HALAMAN HEART -->
+  <div class="container" id="heartPage" style="display: none;">
+    <div class="heart" onclick="toggleMessage(this)">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Heart_corazón.svg/1024px-Heart_corazón.svg.png" alt="">
+    </div>
+
+        <p class="instruction">Click the heart!</p>
+        <div class="container">
+            <label>
+            <div class="heart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg"></img>
+            </div>
+            <input id="messageState" type="checkbox" style="display:none"/>
+            </label>
+            <div class="message">
+                <h1 style="font-family: Cinzel, serif; font-size: 40px; letter-spacing: 1.2px;">Dear Fauziah,</h1>
+                <p> 
+                    <span>
+                        &emsp; Fauziah Callysta Hidayat...
+                                Hari ini bukan hari biasa. Hari ini adalah hari ketika semesta dulu memutuskan untuk menurunkan satu bintang paling terang dari langit, dan menempatkannya di bumi. Hari ini, enam belas tahun yang lalu, Sayangku lahir ke dunia—membawa cahaya, cinta, kelembutan, kekuatan, dan ketulusan yang mungkin bahkan belum disadari dunia waktu itu.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp;  Tanggal 29 Juli bukan cuma angka buat Kakak. Ini adalah hari yang mengubah semuanya. Hari yang suatu saat akan Kakak rayakan bahkan jika Kakak udah tua, bahkan kalau kita lagi berjauhan, bahkan kalau dunia berubah bentuk—karena hari ini adalah hari Sayangku lahir, sayangku. Perempuan yang bukan cuma menghiasi hari , tapi juga mengisi jiwa Kakak. Yang bukan cuma mengucapkan cinta, tapi membuat Kakak mengerti apa itu cinta.
+                    </span>      
+                    <br> <br>
+                    <span>
+                        &emsp;  Sayangku tahu nggak? Setiap kali Kakak lihat Sayangku, rasanya kayak dunia berhenti. Kayak waktu melambat. Semua hal yang dulunya berat, mendadak jadi ringan. Semua luka yang dulu pernah ada, kayak bisa sembuh cuma dengan senyum Sayangku. Sayangku punya sesuatu yang nggak bisa dijelasin sama logika, Sayangku punya kekuatan buat bikin Kakak pengen jadi versi terbaik dari Kakak sendiri, hanya karena Sayangku pantas dapetin itu.
+                    </span>      
+                    <br> <br>
+                    <span>
+                        &emsp; Enam belas tahun Sayangku hidup. Tapi Sayangku udah jadi lebih dari sekadar remaja. Sayangku dewasa dalam rasa. Sayangku matang dalam kasih. Sayangku luar biasa dalam cara Sayangku mencintai balik orang-orang di sekitar Sayangku. Sayangku cantik bukan cuma wajahnya, tapi jiwa Sayangku juga bercahaya, seterang cahaya yang nggak pernah padam. Kakak selalu terpukau dengan cara Sayangku berpikir, bicara, dan menyentuh dunia.
+                    </span>      
+                    <br> <br>
+                    <span>
+                        &emsp; Sayangku mungkin belum sadar, tapi Sayangku adalah keajaiban kecil yang Tuhan taruh di dunia buat jadi inspirasi orang lain. Dan Kakak... Kakak cuma manusia biasa yang bersyukur berkali-kali karena boleh mencintai Sayangku.
+                    </span>      
+                    <br> <br>
+                    <span>
+                        &emsp; Sayang... di ulang tahun yang ke-16 ini, Kakak pengen Sayangku tahu satu hal:
+                                Kakak di sini. Kakak akan selalu di sini.
+                                Bukan cuma pas Sayangku bahagia dan tertawa, tapi juga pas Sayangku capek, takut, dan ngerasa sendiri. Kakak mau jadi tempat pulang Sayangku, jadi pelindung Sayangku, jadi saksi hidup Sayangku dari sekarang sampai kapanpun kita diizinkan bersama. Kakak mau denger semua cerita Sayangku, nemenin Sayangku belajar, nangis di pundak Sayangku kalau Kakak lelah, dan nahan tangan Sayangku saat Sayangku takut. Semua versi Sayangku—Kakak mau. Yang manja, yang cemberut, yang marah, yang kuat, yang rapuh—Kakak mau semuanya.
+                    </span>      
+                    <br> <br>
+                    <span>
+                        &emsp; Ulang tahun ini bukan cuma soal pertambahan umur. Ini tentang bagaimana Sayangku udah tumbuh. Tentang bagaimana Sayangku akan terus bersinar. Tentang masa depan indah yang Sayangku punya, dan Kakak doain Kakak bisa ikut di dalamnya.
+                        Kakak nggak janji hidup kita nanti bakal selalu indah. Tapi Kakak janji, selama Kakak masih hidup, selama Kakak masih bisa nyebut nama Sayangku, Kakak akan jagain cinta kita sebaik mungkin. Kakak akan jadi orang yang Sayangku banggakan, bukan cuma karena Kakak pacar Sayangku—tapi karena Kakak akan selalu berjuang buat Sayangku.
+                    </span>      
+                    <br> <br>
+                    🌹 Fauziah Callysta Hidayat, selamat ulang tahun ke-16.
+                        Kakak cinta banget sama Sayangku dengan seluruh napas, waktu, dan semesta.
+                        Terima kasih sudah lahir. Terima kasih sudah mencintai Kakak.
+                        Terima kasih karena Sayangku adalah Sayangku.
+                        Dan terakhir…
+                        Kalau cinta ini bisa dijadikan hadiah... maka ulang tahun Sayangku hari ini, Kakak kasih Sayangku seluruh hati Kakak.
+                    </span>      
+                </p>
+                <br>
+                <div class="sincere">
+                    <p style="font-weight: bold;"> With Love,</p>
+                    <p>Muhammad Yusuf</p>
+                 </div>
+            </div>
+        </div>
+
+  <!-- Emoji Floating Container (optional) -->
+  <div id="introFloatingContainer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div>
+</div>
+
+<!-- SCRIPT ASLI + TAMBAHAN PLAY AUDIO -->
+  <script>
+    const audio = document.getElementById("bgMusic");
+    const intro = document.getElementById("introPage");
+
+    function startAudio() {
+      intro.style.display = "none";
+      audio.play();
+    }
+
+    // Show message on heart click
+    document.querySelector('.heart img').addEventListener('click', () => {
+      document.getElementById("messageContent").style.display = "block";
+    });
+  </script>
+
+  <script src="jquery.js"></script>
+  <script src="jquery2.1.js"></script>
+  <script defer src="valentine-confession.js"></script>
+  
+  <!-- Tempel ini sebelum </body> -->
+<div id="floatingContainer"></div>
+
+<script>
+  const emojis = ['💖', '🎀', '💘', '💕'];
+  const container = document.getElementById("floatingContainer");
+
+  function createFloatingEmoji() {
+    const emoji = document.createElement("div");
+    emoji.classList.add("floating");
+    emoji.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+
+    // Posisi horizontal random
+    emoji.style.left = Math.random() * 100 + "vw";
+
+    // Ukuran random
+    emoji.style.fontSize = (20 + Math.random() * 20) + "px";
+
+    // Tambahkan ke halaman
+    container.appendChild(emoji);
+
+    // Hapus setelah selesai
+    setTimeout(() => {
+      emoji.remove();
+    }, 5000);
+  }
+
+  // Buat emoji setiap 300ms
+  setInterval(createFloatingEmoji, 300);
+</script>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const intro = document.getElementById('introPage');
+    intro.classList.add('show');
+  });
+</script>
+
+<script>
+  function goToHeart() {
+    const intro = document.getElementById('introPage');
+    const heart = document.getElementById('heartPage');
+    const audio = document.getElementById('bgMusic');
+
+    // Play audio
+    audio.play();
+
+    // Fade out intro
+    intro.classList.remove('fade-in');
+    intro.classList.add('fade-out');
+
+    // Setelah fade out selesai (1 detik), sembunyikan intro dan tampilkan heartPage
+    setTimeout(() => {
+      intro.style.display = 'none';
+      heart.style.display = 'block';
+      heart.classList.add('fade-in');
+    }, 1000);
+  }
+
+  function toggleMessage(heartElement) {
+    const msg = document.getElementById('messageBox');
+    if (msg.style.display === "none" || msg.style.display === "") {
+      msg.style.display = "block";
+    } else {
+      msg.style.display = "none";
+    }
+  }
+</script>
+
+
+</body>
+</html>
+
