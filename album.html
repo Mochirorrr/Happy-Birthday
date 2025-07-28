@@ -9,6 +9,9 @@
     <title>Happy Birthday!</title>
   </head>
   <body>
+
+    <button class="back-button" onclick="goBack()">⬅️ Kembali</button>
+
     <!-- INTRO PAGE -->
     <div class="intro" id="intro">
       <h1>Selamat Ulang Tahun Sayangku!</h1>
@@ -81,6 +84,11 @@
         const audio = document.getElementById("bgMusic");
         audio.play();
       }
+
+      function goBack() {
+  window.location.href = "index.html"; // ganti kalau file utamamu beda nama
+}
+
     </script>
   </body>
 </html>

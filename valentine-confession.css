@@ -364,3 +364,23 @@ body {
   }
 }
 
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  background-color: white;
+  color: #ff69b4;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  cursor: pointer;
+  z-index: 9999;
+  transition: 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #ff69b4;
+  color: white;
+}
